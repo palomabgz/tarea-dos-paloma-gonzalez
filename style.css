@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+
+.form {
+    width: 300px;
+    height: 150px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-color: rgb(125, 125, 125);
+    border-style: dashed;
+}
+
+.contacto {
+    font-weight: bold;
+}
