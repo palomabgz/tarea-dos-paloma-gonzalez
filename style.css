@@ -14,3 +14,93 @@ a {
 .contacto {
     font-weight: bold;
 }
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.encabezado p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.nombre {
+    color: blueviolet;
+    margin-bottom: 8px;
+}
+
+.edad {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 30px;
+}
+
+.domicilio {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 40px;
+}
+
+.informacion {
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.series {
+    display: flex;
+    flex-direction: column;
+} 
+
+.series h3 {
+    color: blueviolet;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.pelis {
+    display: flex;
+    flex-direction: column;
+} 
+
+.pelis h3 {
+    color: blueviolet;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+} 
+
+.intereses h3 {
+    color: blueviolet;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.contacto a {
+    color: blueviolet;
+    margin-left: 3px;
+}
